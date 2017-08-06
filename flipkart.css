@@ -692,10 +692,10 @@ margin-top: 30px;
   margin-right: auto;
 }
 
-}/*end of max-width:450px;*/
+}/*end of (min-width:370px) and (max-width:500px)*/
 
 
-@media screen and (min-width:500px) and (max-width:700px)
+@media screen and (min-width:501px) and (max-width:800px)
 {
 .text-logo {
     font-size: 30px;
@@ -707,11 +707,16 @@ margin-top: 30px;
 
 .textarea input {
     margin-left: 0px;
-    width: 87%;
+    width: 90%;
     line-height: 35px;
     padding-left:0px;
     float:left;
     text-align:center; 
+}
+
+.search{
+  width:10%;
+  height:30%;
 }
 
 .frontbar{
@@ -720,6 +725,10 @@ margin-top: 30px;
 
 .deals-image1{
   margin-top:20px;
+}
+
+.deals-of-the-day-text {
+    margin-top: 97px;
 }
 
 .featured-brands{
@@ -733,26 +742,32 @@ margin-top: 30px;
 }
 
 .box {
-    width: 30%;
+    width: 21%;
     margin: auto;
     margin-top:10px;
 
 }
 
 .box1 {
-    width: 35%;
+    width: 25%;
     margin: auto;
      margin-top:20px;
 }
 
 .box2 {
-    width: 40%;
+    width: 28%;
     margin: auto;
      margin-top:20px;
 }
 
-.policies ul{
-    width: 100%;
+
+    .policies {
+    
+    width: 74%;
+  
+    margin-left: auto;
+    margin-right: auto;
+
 }
 
 .copyright {
@@ -763,14 +778,301 @@ margin-top: 30px;
 }
 
 .touch{
-  float:none;
+      width:42%;
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-}/*end of (min-width:500px) and (max-width:700px)*/
+.keep{
+  margin-left:0;
+    width: 42%;
+    text-align: center;
+}
 
-@media screen and (min-width:700px) and (max-width:990px)
+.mail-container{
+  text-align:center; 
+}
+
+.office-container{
+  text-align:center; 
+}
+
+.deals-wrapper{
+  width:48%;
+  float:left; 
+}
+.social{
+  width:24%;
+}
+
+.facebook{
+  width:100%;
+}
+.youtube{
+  width:100%;
+}
+.twitter{
+  width:100%;
+}
+.google{
+  width:100%;
+}
+
+
+.social-container{
+  width:58%;
+}
+
+.policies{
+  float:none;
+  width:100%;
+}
+.policies ul{
+  width:97%;
+}
+
+.first-policy {
+    width: 12%;
+    text-align: center;
+}
+
+.policy-title {
+    width: 20%;
+    text-align: center;
+}
+
+.policy-title1 {
+    width: 12%;
+    text-align: center;
+}
+
+.policy-title2{
+    width: 13%;
+    text-align: center;
+}
+
+.policy-title3 {
+    width: 17%;
+    text-align: center;
+}
+
+}/*end of (min-width:500px) and (max-width:800px)*/
+
+@media screen and (min-width:801px) and (max-width:990px)
 {
 
+.header {
+    background-color: #2874f0;
+    color: white;
+    height:auto;
+}
 
+.text-logo {
+    font-size: 334%;
+    margin-top: 35px;
+    margin-left:0px;  
+     float:none;
+    font-family: 'Fugaz One', cursive;
+    text-align: center;
+}
+
+.textarea input {
+    margin-left:0px;
+    margin-top: 2%;
+    width: 90%;
+    line-height: 35px;
+    padding-left:0px; */
+    float: left;
+    text-align: center;
+}
+
+.search {
+    width: 10%;
+    margin-top: 2%;
+}
+
+.frontbar ul {
+   margin-left:0px;
+}
+
+.frontbar ul li {
+    width: 16%;
+    text-align: center;
+}
+
+.frontbar .entity {
+    width: 11%;
+}
+
+.deals-wrapper {
+    width: 33%;
+    float: left;
+}
+
+.deals-image1 {
+    margin-top: 10%;
+}
+
+.deals-of-the-day-text {
+    margin-top: 57px;
+}
+
+.featured-brands{
+    font-size:30px;
+    text-align: center;
+    margin-top:4%;  
+}
+
+.site-information{
+    margin-bottom: 6%;
+    text-align: center;
+}
+
+#first-title {
+    font-size: 143%;
+    
+}
+
+#first-title {
+    font-size: 105%;
+  
+}
+
+.site-information li {
+    font-size: 79%;
+}
+
+.box {
+    width:33.33%%;
+    margin: auto;
+    margin-top:20px;
+    float:left;
+}
+
+.image1 {
+    width: 17%;
+}
+
+.track-container {
+    width: 48%;
+}
+
+.order-container {
+    width: 26%;
+}
+
+.box1 {
+    width:33.33%;
+    margin: auto;
+     margin-top:20px;
+     float:left;
+}
+
+
+.box2 {
+    width:33.33%;
+    margin: auto;
+     margin-top:20px;
+     float:left;
+}
+
+.policies{
+  float:left;
+  width:70%;
+}
+.policies ul{
+  width:100%;
+}
+
+.first-policy {
+    width: 10%;
+    text-align: center;
+}
+
+.policy-title {
+    width: 18%;
+    text-align: center;
+}
+
+.policy-title1 {
+    width: 11%;
+    text-align: center;
+}
+
+.policy-title2{
+    width: 11%;
+    text-align: center;
+}
+
+.policy-title3 {
+    width: 14%;
+    text-align: center;
+}
+
+.copyright {
+     margin-top:40px;
+    float: left;
+    margin-left: 0px;
+    text-align: center;
+    width: 30%;
 
 }
+
+.site-information{
+  width:33.33%;
+  float:left;
+}
+
+
+.mail-container{
+  width:50%;
+  float:left;
+  margin-left:0; 
+}
+.office-container{
+  width:50%;
+  float:left;
+}
+
+.touch{
+  width:38%;
+  float:none;
+  margin:auto;
+  margin-top:10%; 
+}
+.keep{
+  width:35%;
+  float:left; 
+  margin-left:0;
+  text-align:center;  
+}
+.social-container{
+  width:50%;
+}
+
+.social{
+  width:25%;
+  margin-left:0;
+}
+
+.facebook{
+  width:72%;
+  margin-left:0;
+}
+
+.twitter{
+  width:72%;
+  margin-left:0;
+}
+.google{
+  width:72%;
+  margin-left:0;
+}
+.youtube{
+  width:72%;
+  margin-left:0;
+}
+
+
+}/*end of (min-width:801px) and (max-width:990px)*/
