@@ -44,14 +44,16 @@
     height: 34.4px;
     background-color: yellow;
     float: left;
-    margin-top: 35px;   
+    margin-top: 35px;
+    text-align:center;    
 }
 
-._2BhAHa{
-	
-   margin-top: 10px;
-   margin-left:22px;
+.glyphicon{
+  color:black;
+  margin-top:9%; 
 }
+
+
 .frontbar{
 margin-top:75px;
 }
@@ -944,34 +946,20 @@ margin-top: 30px;
 }
 
 .box {
-    width:33.33%%;
+    width:48%;
     margin: auto;
     margin-top:20px;
-    float:left;
-}
-
-.image1 {
-    width: 17%;
-}
-
-.track-container {
-    width: 48%;
-}
-
-.order-container {
-    width: 26%;
 }
 
 .box1 {
-    width:33.33%;
+    width:56.33%;
     margin: auto;
      margin-top:20px;
-     float:left;
 }
 
 
 .box2 {
-    width:33.33%;
+    width:62.33%;
     margin: auto;
      margin-top:20px;
      float:left;
@@ -1074,5 +1062,83 @@ margin-top: 30px;
   margin-left:0;
 }
 
-
 }/*end of (min-width:801px) and (max-width:990px)*/
+
+
+@media screen and (min-width:991px) and (max-width:1301px)
+{
+.text-logo {
+    font-size: 178%;
+    margin-left: 0%;
+    width: 15%;
+    text-align: center;
+}
+
+.textarea input {
+    width: 78%;
+    margin-left:0; 
+}
+
+.search {
+    width: 7%;
+}
+
+._2BhAHa {
+    margin-left: 43%;
+    width: 100%;
+}
+
+.frontbar ul {
+    margin-left: 10%;
+}
+
+.frontbar ul li {
+    width: 17%;
+ }
+
+.frontbar .entity {
+    width: 12%;
+}
+
+.featured-brands {
+    font-size: 206%;
+}
+
+.policies {
+    width: 50%;
+    float: left;
+}
+
+.policy-title {
+    width: 20%;
+}
+
+.policy-title1 {
+    width: 13%;
+}
+
+.policy-title2 {
+    width: 12%;
+}
+
+.policy-title3 {
+    width: 18%;
+}
+
+.copyright {
+    width: 17%;
+    float: left;
+     margin-left:0px;
+}
+
+.touch {
+    width: 30%;
+    float: right;
+}
+
+.keep{
+  margin-left: 0;
+}
+}
+
+
