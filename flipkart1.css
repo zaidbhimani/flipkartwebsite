@@ -1,11 +1,17 @@
 *{
-	border:1px solid red;
+	/*border:1px solid red;*/
 }
 
 .clearfix:after {
   content: "";
   display: table;
   clear: both;
+}
+
+.pendrive-container{
+  height:88%;
+  overflow-y:scroll;
+  overflow-x:hidden;
 }
 
 .header{
